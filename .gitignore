@@ -1,0 +1,9 @@
+# Non-site source/reference assets
+3toDeuce_cursor_pack/
+3toDeuce_cursor_pack_v2/
+3toDeuceV11.pdf
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.cursor/
