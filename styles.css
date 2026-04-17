@@ -748,8 +748,6 @@ textarea:focus {
 }
 
 footer {
-    background: var(--accent);
-    color: #071008;
     border-top: 1px solid var(--line);
 }
 
@@ -771,16 +769,6 @@ footer {
 .footer-logos img {
     height: 34px;
     width: auto;
-}
-
-.footer-cta .cta-button.ghost {
-    border-color: rgba(7, 16, 8, 0.18);
-    color: #071008;
-}
-
-.footer-cta .cta-button.ghost:hover {
-    border-color: rgba(7, 16, 8, 0.42);
-    color: #071008;
 }
 
 .site-footer-minimal {
