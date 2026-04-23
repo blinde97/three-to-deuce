@@ -787,6 +787,14 @@ footer {
 }
 
 @media (max-width: 1080px) {
+    .nav-menu-desktop {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+    }
+
     .hero-content,
     .stats-strip,
     .show-layout,
@@ -806,14 +814,6 @@ footer {
 }
 
 @media (max-width: 840px) {
-    .nav-menu-desktop {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: inline-flex;
-    }
-
     .nav-panel .nav-menu {
         grid-template-columns: 1fr;
     }
