@@ -860,3 +860,28 @@ footer {
         padding: 1.5rem;
     }
 }
+
+.product-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    background: #fff;
+}
+
+.product-photo-placeholder {
+    aspect-ratio: 4 / 3;
+    background: var(--surface-2);
+    border: 1px dashed rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.product-photo-placeholder span {
+    color: var(--muted);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+}
